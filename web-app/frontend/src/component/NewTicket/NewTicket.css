@@ -1,0 +1,54 @@
+.new-ticket {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #000;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 50rem;
+    max-width: 95%;
+    margin: 1rem auto;
+}
+
+.new-ticket button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #4b4b4b;
+    background-color: #4b4b4b;
+    color: white;
+    border-radius: 6px;
+    margin-right: 1rem;
+}
+
+.new-ticket button:hover,
+.new-ticket button:active {
+    background-color: #741188;
+    border-color: #741188;
+}
+
+.new-ticket button:focus {
+    outline: none;
+}
+
+.new-ticket button.secondary {
+    background-color: #8b005d;
+    border-color: #8b005d;
+}
+
+.new-ticket button.secondary:hover,
+.new-ticket button.secondary:active {
+    background-color: #a3006b;
+    border-color: #a3006b;
+}
+
+.new-ticket button.alternative {
+    background-color: #f3f0f0;
+    color: #4f005f;
+    border-color: #ccc;
+}
+
+.new-ticket button.alternative:hover,
+.new-ticket button.alternative:active {
+    background-color: #ccc;
+}
